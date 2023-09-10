@@ -1,6 +1,5 @@
 function calculateMinCost() {
-  //your code here
-	            const ropeInput = document.getElementById('ropeInput').value;
+            const ropeInput = document.getElementById('ropeInput').value;
             const ropeLengths = ropeInput.split(',').map(Number);
 
             if (ropeLengths.length < 2) {
@@ -100,7 +99,3 @@ function calculateMinCost() {
                 this.heap[b] = temp;
             }
         }
-  
-  
-  
-}  
