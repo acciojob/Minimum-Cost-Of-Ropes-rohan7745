@@ -6,12 +6,12 @@
 </head>
 
 <body>
-    <form id="form">
-        <label for="rope-lengths">Enter rope lengths:</label>
-        <input type="text" id="rope-lengths">
-        <button type="button" onclick="calculateMinCost()">Calculate</button>
-      </form>
-      <div id="result"></div>
+     <form id="ropeForm">
+        <label for="ropeLengths">Enter comma-separated rope lengths:</label>
+        <input type="text" id="ropeLengths" required>
+        <button type="submit">Calculate Minimum Cost</button>
+    </form>
+    <div id="result"></div>
 
 <script>
     type="text/javascript" src="./script.js"
